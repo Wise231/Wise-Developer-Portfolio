@@ -1,0 +1,9 @@
+# Wise Tshikovhela — Software Developer Portfolio
+
+Wise Tshikovhela is an Information Technology graduate from Nelson Mandela University. This portfolio presents software development projects, technical skills, academic research, education, certifications and independent publications.
+
+Main site: https://wise231.github.io/
+GitHub: https://github.com/Wise231
+Contact: wisetshikovhela@gmail.com
+
+Project case studies are available under /projects/. Academic research is available under /research/.
