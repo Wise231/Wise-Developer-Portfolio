@@ -1,35 +1,39 @@
-# Wise Tshikovhela — Developer Portfolio
+## Personal Developer Portfolio
 
-A responsive, static HTML/CSS/JavaScript portfolio. No build tools or package installation are required.
+Welcome to my personal developer portfolio. This project showcases my background, technical interests, skills, and selected projects as I continue growing in the field of software development.
 
-## Open locally
-1. Extract the ZIP file.
-2. Open the `wise-developer-portfolio` folder in Visual Studio Code.
-3. Open `index.html` in a browser, or use the VS Code **Live Server** extension for a local preview.
+## About Me
 
-## Publish with GitHub Pages
-1. Create or open the repository you want to publish from.
-2. Upload the **contents** of this folder to the repository root (so `index.html` is at the root).
-3. In GitHub, open **Settings → Pages**.
-4. Under Build and deployment, choose **Deploy from a branch**.
-5. Select `main` and `/ (root)`, then save.
-6. GitHub Pages will publish the site. The supplied sitemap and robots file assume the address `https://wise231.github.io/`. If you publish under a different repository URL or custom domain, update those URLs and add the final canonical URL metadata when known.
+I am a passionate and aspiring software developer with an interest in building practical, user-friendly, and responsive digital experiences. I enjoy solving problems through technology, learning new tools, and turning ideas into functional solutions.
 
-## Included pages
-- Main portfolio: `index.html`
-- Seven project case studies in `projects/`
-- Augmented Reality research case study in `research/`
-- Custom `404.html` page
+This portfolio serves as a central place to explore my work, understand my technical capabilities, and learn more about my journey as a developer.
 
-## Editing your details
-- Main page content: `index.html`
-- Case-study content: individual HTML files in `projects/` and `research/`
-- Styling: `css/style.css`
-- Mobile navigation: `js/main.js`
-- Contact details and GitHub link appear in `index.html` and the footer.
+## Portfolio Features
 
-## Notes
-- The TutorFind video is embedded from YouTube using its privacy-enhanced `youtube-nocookie.com` host.
-- Google Fonts are loaded online; system sans-serif fallbacks are provided.
-- No contact form is presented as functional; email and phone links open the visitor's email and phone apps.
-- No portrait, book-cover artwork, certification verification links, employment history, testimonials or unverified project features have been fabricated.
+Home: An introduction and overview of my portfolio.
+
+About Me: Information about my background, interests, and development journey.
+
+Skills: An overview of my technical skills and technologies.
+
+Projects: A showcase of selected projects and practical work.
+
+Contact: Ways to connect with me regarding opportunities, collaborations, or professional enquiries.
+
+Responsive Design: Optimised for desktop, tablet, and mobile devices.
+
+## Technologies Used
+HTML5
+CSS3
+JavaScript
+
+
+## Future Improvements
+
+I intend to continue improving this portfolio by adding new projects, refining the user experience, and expanding its functionality as I develop my technical skills.
+
+## Contact
+
+I am open to connecting with developers, recruiters, and organisations interested in technology, collaboration, and new opportunities.
+
+Thank you for taking the time to explore my work.
