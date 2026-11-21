@@ -1,0 +1,227 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta name="description" content="ScholarLink is a full-stack academic collaboration platform developed using C#, ASP.NET Core, Entity Framework Core, MySQL, HTML, CSS and JavaScript.">
+
+  <meta property="og:title" content="ScholarLink | Wise Tshikovhela">
+  <meta property="og:description" content="A full-stack academic collaboration platform connecting students, tutors and academic support services through a centralised system.">
+  <meta property="og:type" content="website">
+
+  <meta name="theme-color" content="#101114">
+
+  <title>ScholarLink | Wise Tshikovhela</title>
+
+  <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body id="top">
+
+  <header class="site-header">
+    <div class="wrap nav">
+
+      <a class="brand" href="../index.html">WISE<span>.</span></a>
+
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        Menu
+      </button>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#research">Research</a>
+        <a href="../index.html#education">Education</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section class="page-hero">
+
+      <div class="breadcrumbs">
+        <a href="../index.html">Home</a> /
+        <a href="../index.html#projects">Projects</a> /
+        ScholarLink
+      </div>
+
+      <div class="kicker">Project case study</div>
+
+      <h1 class="page-title">
+        Scholar<span class="accent-blue">Link</span>
+      </h1>
+
+      <p class="lead">
+        A full-stack academic collaboration and student support platform designed to bring tutoring, study groups, academic resources and student communication into one centralised environment.
+      </p>
+
+      <div class="case-meta">
+        <span class="tag">Education Technology / Full-Stack Development</span>
+        <span class="tag">C# · ASP.NET Core · Entity Framework Core · MySQL · HTML · CSS · JavaScript · REST APIs</span>
+      </div>
+
+    </section>
+
+    <section class="case-section">
+
+      <h2>Project overview</h2>
+
+      <p>
+        ScholarLink originated from an observation during my university studies: students often have to navigate several disconnected platforms and communication channels to access academic support, find tutors, organise study groups and obtain learning resources.
+      </p>
+
+      <p>
+        The project explores how these activities can be brought together through a centralised academic support platform. It provides a structured environment where students can discover tutors, arrange tutoring sessions, participate in study groups, communicate with other users and access shared learning resources.
+      </p>
+
+      <p>
+        ScholarLink also incorporates administrative functionality to support the management of users, academic institutions, faculties, modules and platform activities. The system is designed around different user roles, ensuring that access to administrative and academic functions is controlled according to permissions.
+      </p>
+
+    </section>
+
+    <section class="case-section">
+
+      <h2>Technical implementation & architecture</h2>
+
+      <p>
+        ScholarLink follows a client-server architecture, separating the frontend interface, backend application logic and relational database.
+      </p>
+
+      <p>
+        The backend is developed using C# and ASP.NET Core Web API. It exposes RESTful endpoints responsible for authentication, user administration, institutional management, tutoring workflows, study groups, messaging, learning resources and notifications.
+      </p>
+
+      <p>
+        Entity Framework Core is used as the object-relational mapping framework, connecting the application models to a MySQL 8.0 database. The database structure uses relational entities, primary keys, foreign keys and indexes to organise academic and platform information.
+      </p>
+
+      <p>
+        ASP.NET Core Identity handles user account management and role-based access control, while JWT authentication supports authenticated API communication. The frontend is developed using HTML, CSS and JavaScript, providing the user-facing pages and communicating with the backend through HTTP requests.
+      </p>
+
+    </section>
+
+    <section class="case-section">
+
+      <h2>Core system functionality</h2>
+
+      <ul>
+        <li>User registration, login and authenticated access</li>
+        <li>Role-based access for platform administrators, institution administrators, coordinators, tutors and students</li>
+        <li>Administrative user creation and account management</li>
+        <li>Institution, faculty and academic module management</li>
+        <li>Tutor applications, discovery and approval workflows</li>
+        <li>Tutor availability and tutoring session management</li>
+        <li>Study group creation and membership management</li>
+        <li>Conversation and messaging functionality</li>
+        <li>Learning resource management and file downloads</li>
+        <li>Notifications and academic announcements</li>
+        <li>Tutor reviews and feedback</li>
+      </ul>
+
+    </section>
+
+    <section class="case-section">
+
+      <h2>Database design & data management</h2>
+
+      <p>
+        The application uses a relational database designed around the relationships between users, institutions and academic activities.
+      </p>
+
+      <p>
+        Its data model includes entities for user accounts, institutions, faculties, academic modules, student and tutor profiles, tutoring sessions, availability, study groups, group memberships, conversations, messages, learning resources, reviews, notifications and announcements.
+      </p>
+
+      <p>
+        Entity Framework Core manages database interactions and relationships, while MySQL provides persistent data storage. The application is configured to initialise its database schema when connecting to an empty database.
+      </p>
+
+    </section>
+
+    <section class="case-section">
+
+      <h2>Technical concepts demonstrated</h2>
+
+      <ul>
+        <li>Object-oriented programming using C#</li>
+        <li>ASP.NET Core Web API development</li>
+        <li>RESTful API design and implementation</li>
+        <li>Entity Framework Core and object-relational mapping</li>
+        <li>Relational database design using MySQL</li>
+        <li>Authentication and role-based authorisation</li>
+        <li>JWT-based API security</li>
+        <li>CRUD operations and data validation</li>
+        <li>Separation of concerns and layered application architecture</li>
+        <li>Frontend and backend integration</li>
+        <li>Entity relationships, foreign keys and database indexing</li>
+        <li>Modular application development and maintainable code organisation</li>
+      </ul>
+
+    </section>
+
+    <section class="case-section">
+
+      <h2>Project objectives</h2>
+
+      <p>
+        The primary objective of ScholarLink is to explore how software engineering can address practical challenges within higher education. The project brings together several academic support workflows in a single application while demonstrating the design and development of a structured, database-driven software system.
+      </p>
+
+      <p>
+        It also serves as a practical demonstration of full-stack development, backend engineering, database architecture, API integration, authentication and application-level access control.
+      </p>
+
+    </section>
+
+    <section class="case-section">
+
+      <div class="callout">
+        ScholarLink is an independently developed software project. Its functionality and architecture are intended to demonstrate practical software development and academic collaboration workflows. It is not presented as an officially integrated university platform.
+      </div>
+
+    </section>
+
+    <a class="back-link" href="../index.html#projects">
+      ← Back to all projects
+    </a>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="wrap footer-inner">
+
+      <div>
+        <strong>Wise Tshikovhela</strong><br>
+        Software Developer | Information Technology Graduate
+      </div>
+
+      <div>
+        <a href="mailto:wisetshikovhela@gmail.com">Email</a> ·
+        <a href="https://github.com/Wise231" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="#top">Back to top ↑</a>
+      </div>
+
+      <div>
+        © <span data-year>2026</span> Wise Tshikovhela. All rights reserved.
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="../js/main.js"></script>
+
+</body>
+</html>
+```
